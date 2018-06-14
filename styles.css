@@ -18,10 +18,12 @@
   position: absolute;
   width: 50%;
   top: 50%;
+  border-radius: 25%;
   transform-origin: 100%;
   transform: rotate(90deg);
   transition: all 0.1s;
   transition-timing-function: cubic-bezier(0.1, 2.7, 0.5, 1);
+  box-shadow: 4px 4px 8px #494949;
 }
 
 .second-hand {
@@ -36,7 +38,7 @@
 }
 
 .hour-hand {
-  height: 8px;
+  height: 9px;
 }
 
 .center {
